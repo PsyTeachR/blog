@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts.html",
+    "items": []
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/l1-data-skills.html",
+      "/resources/l2-analysis.html",
+      "/resources/l3-stat-models.html",
+      "/resources/quant-fun.html",
+      "/resources/reprores.html",
+      "/resources/stats-res.html",
+      "/resources/glossary.html",
+      "/resources/ads.html",
+      "/resources/handy-workbook.html",
+      "/resources/introdataviz.html",
+      "/resources/tutorials.html",
+      "/resources/shiny-intro.html",
+      "/resources/intro-r-pkgs.html",
+      "/resources/book-template.html",
+      "/resources/webex.html",
+      "/resources/markr.html",
+      "/resources/faux.html",
+      "/resources/hack-your-data-beautiful.html",
+      "/resources/redesigning-methods-curricula.html",
+      "/resources/psych-future.html"
+    ]
+  }
+]
