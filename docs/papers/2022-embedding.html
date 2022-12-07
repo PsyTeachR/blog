@@ -6,18 +6,17 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dale Barr">
+<meta name="author" content="Phil McAleer">
+<meta name="author" content="Niamh Stack">
 <meta name="author" content="Heather Cleland Woods">
 <meta name="author" content="Lisa DeBruine">
-<meta name="author" content="Rebecca Lai">
-<meta name="author" content="Phil McAleer">
-<meta name="author" content="Shanon McNee">
-<meta name="author" content="Emily Nordmann">
 <meta name="author" content="Helena Paterson">
-<meta name="author" content="Niamh Stack">
-<meta name="description" content="A 2019 workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.">
+<meta name="author" content="Emily Nordmann">
+<meta name="author" content="Carolina Kuepper-Tetzel">
+<meta name="author" content="Dale Barr">
+<meta name="dcterms.date" content="2022-11-03">
 
-<title>PsyTeachR - Redesigning methods curricula for reproducibility</title>
+<title>PsyTeachR - Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,14 +71,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="PsyTeachR - Redesigning methods curricula for reproducibility">
-<meta property="og:description" content="A 2019 workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.">
-<meta property="og:image" content="https://psyteachr.github.io/../images/Rlogo-warhol-9b.svg">
+<meta property="og:title" content="PsyTeachR - Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research">
+<meta property="og:description" content="Many initiatives to improve reproducibility incentivise replication and encourage greater transparency without directly addressing the underlying skills needed for transparent and reproducible data preparation and analysis. In this paper, we argue that training in data processing and transformation should be embedded in field-specific research methods curricula. Promoting reproducibility and open science requires not only teaching relevant values and practices, but also providing the skills needed for reproducible data analysis. Improving students’ data skills will also enhance their employability within and beyond the academic context. To demonstrate the necessity of these skills, we walk through the analysis of realistic data from a classic paradigm in experimental psychology that is often used in teaching: the Stroop Interference Task. When starting from realistic raw data, nearly 80% of the data analytic effort for this task involves skills not commonly taught—namely, importing, manipulating, and transforming tabular data. Data processing and transformation is a large and inescapable part of data analysis, and so education should strive to make the work associated with it as efficient, transparent, and reproducible as possible. We conclude by considering the challenges of embedding computational data skills training in undergraduate programmes and offer some solutions.">
 <meta property="og:site-name" content="PsyTeachR">
-<meta name="twitter:title" content="PsyTeachR - Redesigning methods curricula for reproducibility">
-<meta name="twitter:description" content="A 2019 workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.">
-<meta name="twitter:image" content="https://psyteachr.github.io/../images/Rlogo-warhol-9b.svg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PsyTeachR - Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research">
+<meta name="twitter:description" content="Many initiatives to improve reproducibility incentivise replication and encourage greater transparency without directly addressing the underlying skills needed for transparent and reproducible data preparation and analysis. In this paper, we argue that training in data processing and transformation should be embedded in field-specific research methods curricula. Promoting reproducibility and open science requires not only teaching relevant values and practices, but also providing the skills needed for reproducible data analysis. Improving students’ data skills will also enhance their employability within and beyond the academic context. To demonstrate the necessity of these skills, we walk through the analysis of realistic data from a classic paradigm in experimental psychology that is often used in teaching: the Stroop Interference Task. When starting from realistic raw data, nearly 80% of the data analytic effort for this task involves skills not commonly taught—namely, importing, manipulating, and transforming tabular data. Data processing and transformation is a large and inescapable part of data analysis, and so education should strive to make the work associated with it as efficient, transparent, and reproducible as possible. We conclude by considering the challenges of embedding computational data skills training in undergraduate programmes and offer some solutions.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -133,14 +130,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Redesigning methods curricula for reproducibility</h1>
-                  <div>
-        <div class="description">
-          A 2019 workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">workshop</div>
+      <h1 class="title">Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">data skills</div>
+                <div class="quarto-category">pedagogy</div>
               </div>
                   </div>
   </div>
@@ -151,21 +144,40 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
-               <p>Dale Barr </p>
+               <p>Phil McAleer </p>
+               <p>Niamh Stack </p>
                <p>Heather Cleland Woods </p>
                <p>Lisa DeBruine </p>
-               <p>Rebecca Lai </p>
-               <p>Phil McAleer </p>
-               <p>Shanon McNee </p>
-               <p>Emily Nordmann </p>
                <p>Helena Paterson </p>
-               <p>Niamh Stack </p>
+               <p>Emily Nordmann </p>
+               <p>Carolina Kuepper-Tetzel </p>
+               <p>Dale Barr </p>
             </div>
     </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 3, 2022</p>
+      </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Doi</div>
+      <div class="quarto-title-meta-contents">
+        <p class="doi">
+          <a href="https://doi.org/10.31234/osf.io/hq68s">10.31234/osf.io/hq68s</a>
+        </p>
+      </div>
+    </div>
     </div>
     
+  <div>
+    <div class="abstract">
+      <div class="abstract-title">Abstract</div>
+      <p>Many initiatives to improve reproducibility incentivise replication and encourage greater transparency without directly addressing the underlying skills needed for transparent and reproducible data preparation and analysis. In this paper, we argue that training in data processing and transformation should be embedded in field-specific research methods curricula. Promoting reproducibility and open science requires not only teaching relevant values and practices, but also providing the skills needed for reproducible data analysis. Improving students’ data skills will also enhance their employability within and beyond the academic context. To demonstrate the necessity of these skills, we walk through the analysis of realistic data from a classic paradigm in experimental psychology that is often used in teaching: the Stroop Interference Task. When starting from realistic raw data, nearly 80% of the data analytic effort for this task involves skills not commonly taught—namely, importing, manipulating, and transforming tabular data. Data processing and transformation is a large and inescapable part of data analysis, and so education should strive to make the work associated with it as efficient, transparent, and reproducible as possible. We conclude by considering the challenges of embedding computational data skills training in undergraduate programmes and offer some solutions.</p>
+    </div>
+  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->

@@ -3,7 +3,15 @@ title: "Creating a curriculum centered on reproducible research for the Psycholo
 author: [Phil McAleer]
 categories: [talk]
 date: 2021-04-16
-description: A talk by Phil McAleer for the Project Tier Spring Symposium 2021. <a href="https://youtu.be/eArfSK3huFY">video</a> | <a href="https://psyteachr.github.io/files/McAleer_ProjectTier_2021.pptx">ppt</a> | <a href="https://psyteachr.github.io/files/McAleer_ProjectTier_2021.pdf">pdf</a>
+venue: Project Tier Spring Symposium
+description: A talk by Phil McAleer for the Project Tier Spring Symposium 2021.
+links:
+  - text: video
+    url: https://youtu.be/eArfSK3huFY
+  - text: ppt
+    url: https://psyteachr.github.io/files/McAleer_ProjectTier_2021.pptx
+  - text: pdf
+    url: https://psyteachr.github.io/files/McAleer_ProjectTier_2021.pdf
 image: ../../images/logo.png
 order: 50
 ---

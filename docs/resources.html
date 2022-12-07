@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-description','listing-image','listing-url','listing-contact','listing-order','listing-path','listing-filename','listing-file-modified','listing-reading-time','listing-doi','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-description','listing-image','listing-url','listing-contact','listing-order','listing-path','listing-filename','listing-file-modified','listing-reading-time','listing-doi','listing-date','listing-venue','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-description","listing-image","listing-url","listing-contact","listing-order","listing-path","listing-filename","listing-file-modified","listing-reading-time","listing-doi","listing-date"],
+      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-description","listing-image","listing-url","listing-contact","listing-order","listing-path","listing-filename","listing-file-modified","listing-reading-time","listing-doi","listing-date","listing-venue","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -121,6 +121,9 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./resources.html" aria-current="page">Resources</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./papers.html">Papers</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://psyteachr.github.io/mms/coding_club.html">Coding Club</a>
@@ -175,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<ul class="booklist list">
+<ul class="reslist list">
   <li data-index="0" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670257255222" data-listing-reading-time-sort="0.005">
     <div>
       <a href="https://psyteachr.github.io/data-skills/"><img src="./images/data-skills.png"></a>
@@ -385,13 +388,13 @@ ul.task-list li input[type="checkbox"] {
         Author: Dale Barr, Heather Cleland Woods, Lisa DeBruine, Rebecca Lai, Phil McAleer, Shanon McNee, Emily Nordmann, Helena Paterson, Niamh Stack
     </div>
   </li>
-  <li data-index="19" data-categories="talk" data-listing-date-sort="1618527600000" data-listing-file-modified-sort="1670259486233" data-listing-reading-time-sort="0.005">
+  <li data-index="19" data-categories="talk" data-listing-date-sort="1618527600000" data-listing-file-modified-sort="1670260518772" data-listing-reading-time-sort="0.005">
     <div>
       <a href=""><img src="./images/logo.png"></a>
     </div>
     <div>
       <h3 class="anchored">Creating a curriculum centered on reproducible research for the Psychologists of the future</h3>
-      <p>A talk by Phil McAleer for the Project Tier Spring Symposium 2021. <a href="https://youtu.be/eArfSK3huFY">video</a> | <a href="https://psyteachr.github.io/files/McAleer_ProjectTier_2021.pptx">ppt</a> | <a href="https://psyteachr.github.io/files/McAleer_ProjectTier_2021.pdf">pdf</a></p>
+      <p>A talk by Phil McAleer for the Project Tier Spring Symposium 2021.</p>
         Author: Phil McAleer
     </div>
   </li>

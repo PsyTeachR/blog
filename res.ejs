@@ -1,5 +1,5 @@
 ```{=html}
-<ul class="booklist list">
+<ul class="reslist list">
 <% for (const item of items) { %>
   <li <%= metadataAttrs(item) %>>
     <div>
@@ -12,6 +12,7 @@
       <% } else { %>
       <h3><%= item.title %></h3>
       <% } %>
+      
       <p><%= item.description %></p>
       
       <% if (item.author) { %>

@@ -17,6 +17,7 @@ website:
     logo-alt: "Hexagon with PsyTeachR in rainbow art deco letters"
     right:
       - resources.qmd
+      - papers.qmd
       - text: "Coding Club"
         href: https://psyteachr.github.io/mms/coding_club.html
       - text: "M&Ms"

@@ -15,7 +15,7 @@
 }
 
 /* rainbow borders */
-#quarto-content {
+nav {
   margin-top: 18px;
   box-shadow: 0 -3px 0 0px var(--purple),
               0 -6px 0 0px var(--blue),
@@ -41,11 +41,11 @@
   margin:0px 20px;
 }
 
-.booklist {
+.reslist, .paperlist {
   list-style-type: none;
 }
 
-.booklist li > div:first-child {
+.reslist li > div:first-child {
   width: 20%;
   max-width: 150px;
   min-width: 50px;
@@ -53,11 +53,19 @@
   float: left;
 }
 
-.booklist li div:nth-child(2) {
+.reslist li div:nth-child(2) {
   margin-left: 22.5%;
 }
 
-.booklist li > div:first-child img {
+.reslist li > div:first-child img {
     display: block;
     width: 100%;
+}
+
+.paperlist h3 {
+  font-size: 120%;
+}
+
+.paperlist .abstract {
+  font-style: italic;
 }
